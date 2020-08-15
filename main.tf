@@ -3,7 +3,6 @@ provider "azurerm" {
   client_id       = var.clientId
   client_secret   = var.client_secret
   tenant_id       = var.tenantId
-  features {}
 }
 
 resource "azurerm_resource_group" "main" {
